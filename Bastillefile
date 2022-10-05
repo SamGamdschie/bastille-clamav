@@ -14,5 +14,5 @@ CMD ln -s /usr/local/etc/clamav-milter.conf /usr/local/etc/git_config/clamav/cla
 SYSRC clamav_clamd_enable=YES
 SYSRC clamav_freshclam_enable=YES
 
-SERVICE clamd start
-SERVICE freshclam start
+SERVICE clamav-freshclam start
+SERVICE clamav-clamd start

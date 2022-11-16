@@ -7,7 +7,7 @@ MOUNT /werzel/server_config usr/local/etc/git_config nullfs ro 0 0
 
 # Link Configurations to /usr/local/etc/ from /usr/local/etc/git_config/*/
 CMD rm -rf /usr/local/etc/clamd.conf
-CMD ln -s /usr/local/etc/clamd.conf /usr/local/etc/git_config/clamav/clamd.conf
+CMD ln -s /usr/local/etc/git_config/clamav/clamd.conf /usr/local/etc/clamd.conf
 #CMD rm -rf /usr/local/etc/clamav-milter.conf
 #CMD ln -s /usr/local/etc/clamav-milter.conf /usr/local/etc/git_config/clamav/clamav-milter.conf
 

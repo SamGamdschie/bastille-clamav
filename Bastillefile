@@ -1,4 +1,4 @@
-PKG zsh vim-console clamav
+PKG clamav clamav-unofficial-sigs
 
 CMD mkdir -p /usr/local/etc/git_config/clamav
 

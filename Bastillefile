@@ -1,4 +1,4 @@
-PKG clamav clamav-unofficial-sigs
+PKG clamav htop
 
 CMD mkdir -p /usr/local/etc/git_config/clamav
 
